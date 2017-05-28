@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{0CB7F70C-D3EF-435A-81D7-C29320C7AECE}"
+	ProjectSection(SolutionItems) = preProject
+		gulpfile.js = gulpfile.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{6797F503-1FCE-489C-A71C-5B22F525674D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{E3211D81-0F8D-4942-B5AC-A06C105460C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{62BAFA71-DA15-46C6-9B66-7BF4D807D8A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{61023D66-3316-4EEE-BF52-673FE398667C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.Serialization", "Foundation\Serialization\code\Sitecore.Foundation.Serialization.csproj", "{C51E0B35-EE3F-42C9-AF46-ABC90F5F784C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Training", "Training", "{A89A949D-4ADA-4863-913A-E765B9E52690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Project.Training", "Project\Training\code\Sitecore.Project.Training.csproj", "{A59DC4B7-6351-46AD-A5BD-580C57A0070D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ORM", "ORM", "{71A35632-6239-4112-9837-93B09FE1E5E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.ORM", "Foundation\ORM\code\Sitecore.Foundation.ORM.csproj", "{7DC3BC36-6013-4591-8E5A-F46340C6F02E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C51E0B35-EE3F-42C9-AF46-ABC90F5F784C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51E0B35-EE3F-42C9-AF46-ABC90F5F784C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51E0B35-EE3F-42C9-AF46-ABC90F5F784C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51E0B35-EE3F-42C9-AF46-ABC90F5F784C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A59DC4B7-6351-46AD-A5BD-580C57A0070D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59DC4B7-6351-46AD-A5BD-580C57A0070D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59DC4B7-6351-46AD-A5BD-580C57A0070D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59DC4B7-6351-46AD-A5BD-580C57A0070D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DC3BC36-6013-4591-8E5A-F46340C6F02E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC3BC36-6013-4591-8E5A-F46340C6F02E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC3BC36-6013-4591-8E5A-F46340C6F02E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC3BC36-6013-4591-8E5A-F46340C6F02E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61023D66-3316-4EEE-BF52-673FE398667C} = {E3211D81-0F8D-4942-B5AC-A06C105460C2}
+		{C51E0B35-EE3F-42C9-AF46-ABC90F5F784C} = {61023D66-3316-4EEE-BF52-673FE398667C}
+		{A89A949D-4ADA-4863-913A-E765B9E52690} = {62BAFA71-DA15-46C6-9B66-7BF4D807D8A5}
+		{A59DC4B7-6351-46AD-A5BD-580C57A0070D} = {A89A949D-4ADA-4863-913A-E765B9E52690}
+		{71A35632-6239-4112-9837-93B09FE1E5E3} = {E3211D81-0F8D-4942-B5AC-A06C105460C2}
+		{7DC3BC36-6013-4591-8E5A-F46340C6F02E} = {71A35632-6239-4112-9837-93B09FE1E5E3}
+	EndGlobalSection
+EndGlobal
