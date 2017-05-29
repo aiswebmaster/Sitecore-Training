@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/src/.vs
+/src/Foundation/ORM/code/obj/Debug
+*.user
+/src/Foundation/Serialization/code/obj/Debug
+/src/packages
+/src/Project/Training/code/obj/Debug
+/src/Foundation/ORM/code/bin
+/src/Foundation/ORM/code/obj/Release
+/src/Foundation/Serialization/code/bin
+/src/Foundation/Serialization/code/obj/Release
+/src/Project/Training/code/bin
+/src/Project/Training/code/obj/Release
