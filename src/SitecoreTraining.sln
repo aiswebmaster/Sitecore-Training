@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{0CB7F70C-D3EF-435A-81D7-C29320C7AECE}"
 	ProjectSection(SolutionItems) = preProject
 		gulpfile.js = gulpfile.js
+		publishsettings.targets = publishsettings.targets
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{6797F503-1FCE-489C-A71C-5B22F525674D}"

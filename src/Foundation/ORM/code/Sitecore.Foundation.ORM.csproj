@@ -91,6 +91,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\Publish.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -100,7 +101,7 @@
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
     <Content Include="App_Config\Include\Synthesis\Synthesis.Startup.config" />
-    <Content Include="App_Config\Include\Synthesis\Synthesis.LocalConfig.config.example" />
+    <None Include="App_Config\Include\Synthesis\Synthesis.LocalConfig.config" />
     <Content Include="App_Config\Include\Synthesis\Synthesis.ControlPanel.config" />
     <Content Include="App_Config\Include\Synthesis\Synthesis.config" />
     <Content Include="App_Config\Include\Synthesis\Synthesis.AutoRegenerate.config" />
